@@ -1,0 +1,5 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Checkout</h1>
+<ui-button label="Get some BitCoins" (click)="getCash()"></ui-button>
+<p *ngIf="bitcoinToken">Your bitcoin token: {{bitcoinToken}}</p>
+<router-outlet></router-outlet>
